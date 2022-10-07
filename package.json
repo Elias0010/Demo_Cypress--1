@@ -1,0 +1,14 @@
+{
+  "name": "demo_cypress",
+  "version": "1.0.0",
+  "description": "Proyecto de pruebas practica Cypress",
+  "main": "index.js",
+  "scripts": {
+
+    "test": "cypress open",
+    "tests-chrome": "cypress run --spec cypress/e2e/smoketestbanco.cy.js --browser chrome"
+    
+  },
+  "author": "Elias Geronimo",
+  "license": "ISC"
+}
